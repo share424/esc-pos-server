@@ -48,6 +48,7 @@ namespace Print.Controllers
                 total += product.qty * (product.price - product.discount);
             }
             printer.Append(String.Format("{0,10} {1,10} {2,10}", "", "", "----------"));
+            printer.Append(String.Format("{0,10} {1,10} {2,10:#,#.##}", "", "Diskon Gl.", dto.discount));
             printer.Append(String.Format("{0,10} {1,10} {2,10:#,#.##}", "", "Total", total));
             printer.Append(String.Format("{0,10} {1,10} {2,10:#,#.##}", "", "Tunai", dto.cash));
             printer.Append(String.Format("{0,10} {1,10} {2,10}", "", "", "----------"));

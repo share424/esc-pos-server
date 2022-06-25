@@ -16,6 +16,7 @@ A simple Rest API server for printing receipt on ESC/POS printer.
         }
     ],
     "cash": 300000,
+    "discount": 5000,
     "meta": {
         "store_name": "UD. TOKO BANGUNAN",
         "store_address": "JL. Satu Dua Tiga",

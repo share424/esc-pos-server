@@ -3,6 +3,7 @@ namespace Dtos
     public record PrintDto
     {
         public int cash { get; init; }
+        public int discount { get; init; }
         public PrintMetaDto meta { get; init; }
         public List<ProductDto> products { get; init; }
     }
